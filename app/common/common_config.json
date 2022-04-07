@@ -1,0 +1,6 @@
+{
+  "baseURL": "localhost:8080",
+  "appName": "app name",
+  "baseWebsiteURL": "",
+  "noreplyEmail": ""
+}
