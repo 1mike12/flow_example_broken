@@ -16,10 +16,6 @@ target 'mobile' do
 
 #   needed for mapbox
 
-  pre_install do |installer|
-      $RNMBGL.pre_install(installer)
-  end
-
   target 'mobileTests' do
     inherit! :complete
     # Pods for testing
@@ -34,7 +30,5 @@ target 'mobile' do
     flipper_post_install(installer)
     react_native_post_install(installer)
 #     __apply_Xcode_12_5_M1_post_install_workaround(installer)
-#     needed for mapbox
-    $RNMBGL.post_install(installer)
   end
 end
