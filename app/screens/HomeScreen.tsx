@@ -1,6 +1,5 @@
 import React from "react"
-import {Text, View, ViewStyle} from "react-native"
-import {Button} from "react-native-elements";
+import {Text, View, ViewStyle, Button} from "react-native"
 import {RootStoreContext} from "../models/root-store/root-store-context";
 
 const FULL: ViewStyle = {flex: 1, padding: 40}
